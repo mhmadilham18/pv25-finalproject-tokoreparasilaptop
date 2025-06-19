@@ -18,7 +18,7 @@ Proyek ini merupakan pengembangan dan peningkatan signifikan dari mini project y
     * **Migrasi Database:** Penyimpanan data diubah total dari list Python ke database **SQLite**. Sebuah modul khusus (`database.py`) dibuat untuk mengelola semua interaksi dengan database, termasuk pembuatan tabel (`pegawai`, `perbaikan`, `transaksi`) dan pengisian data awal/dummy.
 
 3.  **Implementasi Fitur-Fitur Utama:**
-    * **Sistem Login & Sesi:** Halaman login dibuat dengan validasi ke database dan enkripsi password dasar (hashing). Fitur "Ingat Saya" ditambahkan menggunakan `QSettings` untuk menyimpan sesi login.
+    * **Sistem Login & Sesi:** Halaman login dibuat dengan validasi ke database. Fitur "Ingat Saya" ditambahkan menggunakan `QSettings` untuk menyimpan sesi login.
     * **Dashboard Utama:** Dashboard dirancang sebagai pusat informasi dengan kartu statistik (misal: "Perbaikan Hari Ini", "Total Pendapatan") yang mengambil data agregat langsung dari database.
     * **Manajemen Data (CRUD):**
         * Form untuk **Input Perbaikan** dan **Input Transaksi** dibuat lebih cerdas. Contohnya, form transaksi kini menggunakan dropdown yang hanya menampilkan data perbaikan yang siap bayar.
