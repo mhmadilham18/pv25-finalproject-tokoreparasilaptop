@@ -1,0 +1,144 @@
+/* Style untuk container utama di halaman Login */
+#mainContainer {
+    background-color: #FFFFFF;
+    border: 2px solid #2980B9;
+    border-radius: 10px;
+    padding: 100px;
+}
+
+#loginHeading {
+    font-size: 26px;
+    font-weight: bold;
+    color: #2C3E50;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#loginSubHeading {
+    font-size: 20px;
+    color: #2C3E50;
+    margin-bottom: 15px;
+}
+
+#checkBox {
+    font-size: 18px;
+    margin-top: 24px;
+
+}
+
+/* === Style untuk card statistik === */
+#cardContainer {
+    background-color: #FFFFFF;
+    min-height: 60px;
+    border: 1px solid #BDC3C7;
+    border-radius: 10px;
+}
+
+QLabel#cardTitleLabel {
+    font-size: 24px;
+    color: #566573;
+}
+
+QLabel#cardValueLabel {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2C3E50;
+}
+/* === AKHIR STYLE KARTU === */
+
+
+/* Style untuk semua QLineEdit, QTextEdit, dan QComboBox */
+QLineEdit, QTextEdit, QComboBox {
+    padding: 14px;
+    font-size: 20px;
+    border: 1px solid #BDC3C7;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+QLineEdit:focus, QTextEdit:focus, QComboBox:focus {
+    border: 2px solid #3498DB;
+}
+
+/* Style untuk semua QPushButton utama */
+QPushButton {
+    background-color: #2980B9;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px;
+    border-radius: 5px;
+    outline: none;
+    min-width: 150px;
+}
+
+QPushButton:hover {
+    background-color: #3498DB;
+}
+
+QPushButton:pressed {
+    background-color: #2471A3;
+}
+
+/* Style untuk Label Judul di Form */
+.formTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2C3E50;
+    margin-bottom: 5px;
+}
+
+/* Style untuk Header di Dashboard */
+#headerLabel {
+    background-color: #2980B9;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style untuk Tab Widget di Dashboard */
+QTabWidget::pane {
+    border: none;
+}
+
+QTabBar::tab {
+    background: #ECF0F1;
+    font-size: 20px;
+    border: 1px solid #BDC3C7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 12px 16px;
+    margin-right: 5px;
+    min-width: 220px;
+    outline: none;
+}
+
+QTabBar::tab:selected {
+    background: #3498DB;
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid #3498DB;
+}
+
+QTabBar::tab:hover {
+    background: #D6EAF8;
+}
+
+/* Style untuk Status Bar */
+QStatusBar {
+    font-size: 14px;
+    padding: 2px;
+}
+
+/* Style untuk item di dalam dropdown */
+QComboBox::item {
+    padding: 12px 16px; /* Memberi padding atas-bawah dan kiri-kanan */
+}
+
+QComboBox::item:selected {
+    background-color: #3498DB; /* Warna highlight saat dipilih */
+    color: white;
+}
