@@ -49,43 +49,43 @@ Berikut adalah beberapa tampilan kunci dari fungsionalitas aplikasi.
 ---
 
 ### 1. Halaman Login
-* *Deskripsi: Tampilan awal aplikasi dengan input username, password, dan opsi "Ingat Saya".*
+* *Tampilan awal aplikasi dengan input username, password, dan opsi "Ingat Saya".*
     ![Halaman Login](screenshots/01_halaman_login.png)
 
 ---
 
 ### 2. Dashboard Utama
-* *Deskripsi: Tampilan utama setelah berhasil login. Menampilkan ucapan selamat datang, kartu statistik, dan tab fungsionalitas.*
+* *Tampilan utama setelah berhasil login. Menampilkan ucapan selamat datang, kartu statistik, dan tab fungsionalitas.*
     ![Dashboard Utama](screenshots/02_dashboard_utama.png)
 
 ---
 
 ### 3. Form Input Perbaikan
-* *Deskripsi: Form untuk memasukkan data perbaikan baru dari pelanggan.*
+* *Form untuk memasukkan data perbaikan baru dari pelanggan.*
     ![Form Input Perbaikan](screenshots/03_form_input_perbaikan.png)
 
 ---
 
 ### 4. Form Input Transaksi
-* *Deskripsi: Form cerdas untuk input transaksi, dengan dropdown yang hanya menampilkan perbaikan yang sudah selesai dan belum lunas.*
+* *Form cerdas untuk input transaksi, dengan dropdown yang hanya menampilkan perbaikan yang sudah selesai dan belum lunas.*
     ![Form Input Transaksi](screenshots/04_form_input_transaksi.png)
 
 ---
 
 ### 5. Tampilan Data Perbaikan
-* *Deskripsi: Menampilkan tabel data perbaikan yang ringkas berdampingan dengan grafik jumlah perbaikan harian.*
+* *Menampilkan tabel data perbaikan yang ringkas berdampingan dengan grafik jumlah perbaikan harian.*
     ![Tampilan Data Perbaikan](screenshots/05_tampilan_data_perbaikan.png)
 
 ---
 
 ### 6. Tampilan Data Transaksi
-* *Deskripsi: Menampilkan tabel riwayat transaksi berdampingan dengan grafik pendapatan harian.*
+* *Menampilkan tabel riwayat transaksi berdampingan dengan grafik pendapatan harian.*
     ![Tampilan Data Transaksi](screenshots/06_tampilan_data_transaksi.png)
 
 ---
 
 ### 7. Dialog Edit Data
-* *Deskripsi: Jendela pop-up yang muncul saat pengguna melakukan klik dua kali pada data di tabel untuk melakukan perubahan.*
+* *Jendela pop-up yang muncul saat pengguna melakukan klik dua kali pada data di tabel untuk melakukan perubahan.*
     ![Dialog Edit Data](screenshots/07_dialog_edit_data.png)
 
 ---
