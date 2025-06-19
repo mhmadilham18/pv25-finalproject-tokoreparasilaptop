@@ -8,7 +8,7 @@ Proyek ini merupakan pengembangan dan peningkatan signifikan dari mini project y
 
 **Langkah-langkah pengembangan utama meliputi:**
 
-1.  **Konsep Awal (Proyek Mini):**
+1.  **Konsep Awal (Mini Project):**
     * Aplikasi awalnya dirancang sebagai sistem pencatatan sederhana.
     * Penyimpanan data masih menggunakan struktur data internal Python (list/array), yang berarti data akan hilang setiap kali aplikasi ditutup.
     * UI dibuat secara fungsional namun belum memiliki styling yang terpusat.
