@@ -135,10 +135,10 @@ QStatusBar {
 
 /* Style untuk item di dalam dropdown */
 QComboBox::item {
-    padding: 12px 16px; /* Memberi padding atas-bawah dan kiri-kanan */
+    padding: 12px 16px;
 }
 
 QComboBox::item:selected {
-    background-color: #3498DB; /* Warna highlight saat dipilih */
+    background-color: #3498DB;
     color: white;
 }
