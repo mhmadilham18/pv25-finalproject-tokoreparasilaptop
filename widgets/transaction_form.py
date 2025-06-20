@@ -63,6 +63,19 @@ class TransactionForm(QWidget):
         main_layout.addLayout(button_layout)
         main_layout.addStretch()
 
+    def showEvent(self, event):
+        super().showEvent(event)
+        self.refresh_data()
+
+    def refresh_data(self):
+        print("Refreshing transaction form data...")
+        self._populate_repairs_combo()
+        self.customer_name_display.clear()
+        self.laptop_model_display.clear()
+        self.total_biaya_input.clear()
+        self.total_uang_dibayar_input.clear()
+        self.kembalian_input.clear()
+
     def _populate_repairs_combo(self):
         self.repairs_combo.clear()
         self.repair_data.clear()
